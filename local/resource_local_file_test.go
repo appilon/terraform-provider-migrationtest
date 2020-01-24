@@ -14,6 +14,10 @@ import (
 	"runtime"
 )
 
+func TestLocal_gitCheck(t *testing.T) {
+
+}
+
 func TestLocalFile_Basic(t *testing.T) {
 	var cases = []struct {
 		path    string
